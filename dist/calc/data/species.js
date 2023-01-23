@@ -6681,7 +6681,7 @@ var SM_PATCH = {
     },
     'Marowak-Alola': {
         types: ['Fire', 'Ghost'],
-        bs: { hp: 80, at: 80, df: 110, sa: 50, sd: 80, sp: 45 },
+        bs: { hp: 90, at: 80, df: 110, sa: 50, sd: 80, sp: 45 },
         weightkg: 34,
         abilities: { 0: 'Cursed Body' },
         baseSpecies: 'Marowak'
