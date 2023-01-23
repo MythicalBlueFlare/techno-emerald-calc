@@ -3984,7 +3984,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Cryogonal: {
     types: ['Ice'],
-    bs: {hp: 90, at: 35, df: 65, sa: 95, sd: 135, sp: 105},
+    bs: {hp: 90, at: 25, df: 75, sa: 95, sd: 135, sp: 105},
     weightkg: 148,
     abilities: {0: 'Levitate'},
     gender: 'N',
@@ -4758,7 +4758,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Stoutland: {
     types: ['Normal'],
-    bs: {hp: 85, at: 100, df: 90, sa: 45, sd: 90, sp: 80},
+    bs: {hp: 85, at: 100, df: 90, sa: 45, sd: 90, sp: 90},
     weightkg: 61,
     abilities: {0: 'Intimidate'},
   },
@@ -4945,7 +4945,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Watchog: {
     types: ['Normal'],
-    bs: {hp: 65, at: 95, df: 69, sa: 60, sd: 69, sp: 77},
+    bs: {hp: 70, at: 100, df: 69, sa: 60, sd: 69, sp: 77},
     weightkg: 27,
     abilities: {0: 'Illuminate'},
   },
@@ -7912,7 +7912,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Dubwool: {
     types: ['Normal'],
-    bs: {hp: 92, at: 90, df: 100, sa: 60, sd: 90, sp: 88},
+    bs: {hp: 72, at: 90, df: 100, sa: 60, sd: 90, sp: 88},
     weightkg: 43,
     abilities: {0: 'Fluffy'},
   },
@@ -8318,7 +8318,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Polteageist: {
     types: ['Ghost'],
-    bs: {hp: 80, at: 65, df: 65, sa: 134, sd: 114, sp: 70},
+    bs: {hp: 70, at: 65, df: 65, sa: 144, sd: 114, sp: 70},
     weightkg: 0.4,
     abilities: {0: 'Weak Armor'},
     otherFormes: ['Polteageist-Antique'],
@@ -8349,7 +8349,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Rapidash-Galar': {
     types: ['Psychic', 'Fairy'],
-    bs: {hp: 65, at: 100, df: 70, sa: 80, sd: 80, sp: 105},
+    bs: {hp: 65, at: 120, df: 70, sa: 80, sd: 80, sp: 115},
     weightkg: 80,
     abilities: {0: 'Run Away'},
     baseSpecies: 'Rapidash',
@@ -8659,7 +8659,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Wooloo: {
     types: ['Normal'],
-    bs: {hp: 72, at: 50, df: 65, sa: 40, sd: 45, sp: 48},
+    bs: {hp: 42, at: 50, df: 65, sa: 40, sd: 45, sp: 48},
     weightkg: 6,
     abilities: {0: 'Fluffy'},
     nfe: true,
