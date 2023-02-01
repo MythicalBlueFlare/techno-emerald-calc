@@ -4736,6 +4736,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     maxPower: 140,
     makesContact: true,
 	secondaries: true,
+	isBite: true,
   },
    'Angelic Song': {
     bp: 80,

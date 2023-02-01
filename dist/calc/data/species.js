@@ -3955,7 +3955,7 @@ var BW_PATCH = {
     },
     Carracosta: {
         types: ['Water', 'Rock'],
-        bs: { hp: 74, at: 108, df: 133, sa: 83, sd: 65, sp: 32 },
+        bs: { hp: 94, at: 118, df: 133, sa: 63, sd: 65, sp: 32 },
         weightkg: 81,
         abilities: { 0: 'Solid Rock' }
     },
@@ -4018,7 +4018,7 @@ var BW_PATCH = {
     },
     Cryogonal: {
         types: ['Ice'],
-        bs: { hp: 90, at: 35, df: 65, sa: 95, sd: 135, sp: 105 },
+        bs: { hp: 90, at: 25, df: 75, sa: 95, sd: 135, sp: 105 },
         weightkg: 148,
         abilities: { 0: 'Levitate' },
         gender: 'N'
@@ -4074,7 +4074,7 @@ var BW_PATCH = {
     },
     Dewott: {
         types: ['Water'],
-        bs: { hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60 },
+        bs: { hp: 75, at: 90, df: 60, sa: 68, sd: 60, sp: 60 },
         weightkg: 24.5,
         nfe: true,
         abilities: { 0: 'Torrent' }
@@ -4330,7 +4330,7 @@ var BW_PATCH = {
     },
     Joltik: {
         types: ['Bug', 'Electric'],
-        bs: { hp: 50, at: 47, df: 50, sa: 82, sd: 50, sp: 90 },
+        bs: { hp: 60, at: 47, df: 50, sa: 89, sd: 50, sp: 90 },
         weightkg: 0.6,
         nfe: true,
         abilities: { 0: 'Compound Eyes' }
@@ -4792,7 +4792,7 @@ var BW_PATCH = {
     },
     Stoutland: {
         types: ['Normal'],
-        bs: { hp: 85, at: 100, df: 90, sa: 45, sd: 90, sp: 80 },
+        bs: { hp: 85, at: 100, df: 90, sa: 45, sd: 90, sp: 90 },
         weightkg: 61,
         abilities: { 0: 'Intimidate' }
     },
@@ -4979,7 +4979,7 @@ var BW_PATCH = {
     },
     Watchog: {
         types: ['Normal'],
-        bs: { hp: 65, at: 95, df: 69, sa: 60, sd: 69, sp: 77 },
+        bs: { hp: 70, at: 100, df: 69, sa: 60, sd: 69, sp: 77 },
         weightkg: 27,
         abilities: { 0: 'Illuminate' }
     },
@@ -7934,7 +7934,7 @@ var SS_PATCH = {
     },
     Dubwool: {
         types: ['Normal'],
-        bs: { hp: 92, at: 90, df: 100, sa: 60, sd: 90, sp: 88 },
+        bs: { hp: 72, at: 90, df: 100, sa: 60, sd: 90, sp: 88 },
         weightkg: 43,
         abilities: { 0: 'Fluffy' }
     },
@@ -8340,7 +8340,7 @@ var SS_PATCH = {
     },
     Polteageist: {
         types: ['Ghost'],
-        bs: { hp: 80, at: 65, df: 65, sa: 134, sd: 114, sp: 70 },
+        bs: { hp: 70, at: 65, df: 65, sa: 144, sd: 114, sp: 70 },
         weightkg: 0.4,
         abilities: { 0: 'Weak Armor' },
         otherFormes: ['Polteageist-Antique'],
@@ -8371,7 +8371,7 @@ var SS_PATCH = {
     },
     'Rapidash-Galar': {
         types: ['Psychic', 'Fairy'],
-        bs: { hp: 65, at: 100, df: 70, sa: 80, sd: 80, sp: 105 },
+        bs: { hp: 65, at: 120, df: 70, sa: 80, sd: 80, sp: 115 },
         weightkg: 80,
         abilities: { 0: 'Run Away' },
         baseSpecies: 'Rapidash'
@@ -8681,7 +8681,7 @@ var SS_PATCH = {
     },
     Wooloo: {
         types: ['Normal'],
-        bs: { hp: 72, at: 50, df: 65, sa: 40, sd: 45, sp: 48 },
+        bs: { hp: 42, at: 50, df: 65, sa: 40, sd: 45, sp: 48 },
         weightkg: 6,
         abilities: { 0: 'Fluffy' },
         nfe: true

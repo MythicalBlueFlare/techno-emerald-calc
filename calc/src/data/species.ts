@@ -3921,7 +3921,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Carracosta: {
     types: ['Water', 'Rock'],
-    bs: {hp: 74, at: 108, df: 133, sa: 83, sd: 65, sp: 32},
+    bs: {hp: 94, at: 118, df: 133, sa: 63, sd: 65, sp: 32},
     weightkg: 81,
     abilities: {0: 'Solid Rock'},
   },
@@ -4040,7 +4040,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Dewott: {
     types: ['Water'],
-    bs: {hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60},
+    bs: {hp: 75, at: 90, df: 60, sa: 68, sd: 60, sp: 60},
     weightkg: 24.5,
     nfe: true,
     abilities: {0: 'Torrent'},
@@ -4296,7 +4296,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Joltik: {
     types: ['Bug', 'Electric'],
-    bs: {hp: 50, at: 47, df: 50, sa: 82, sd: 50, sp: 90},
+    bs: {hp: 60, at: 47, df: 50, sa: 89, sd: 50, sp: 90},
     weightkg: 0.6,
     nfe: true,
     abilities: {0: 'Compound Eyes'},

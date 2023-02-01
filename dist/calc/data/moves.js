@@ -4725,7 +4725,8 @@ var SV_PATCH = {
         zp: 190,
         maxPower: 140,
         makesContact: true,
-        secondaries: true
+        secondaries: true,
+        isBite: true
     },
     'Angelic Song': {
         bp: 80,
