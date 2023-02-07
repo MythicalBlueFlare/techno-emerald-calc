@@ -4278,13 +4278,13 @@ var BW_PATCH = {
         abilities: { 0: 'Frisk' }
     },
     Gothitelle: {
-        types: ['Psychic'],
+        types: ['Psychic', 'Dark'],
         bs: { hp: 70, at: 55, df: 95, sa: 95, sd: 110, sp: 65 },
         weightkg: 44,
         abilities: { 0: 'Frisk' }
     },
     Gothorita: {
-        types: ['Psychic'],
+        types: ['Psychic', 'Dark'],
         bs: { hp: 60, at: 45, df: 70, sa: 75, sd: 85, sp: 55 },
         weightkg: 18,
         nfe: true,
@@ -5882,14 +5882,14 @@ var XY_PATCH = {
     },
     Meowstic: {
         types: ['Psychic'],
-        bs: { hp: 84, at: 48, df: 86, sa: 83, sd: 91, sp: 104 },
+        bs: { hp: 114, at: 28, df: 91, sa: 83, sd: 96, sp: 104 },
         weightkg: 8.5,
         abilities: { 0: 'Keen Eye' },
         otherFormes: ['Meowstic-F']
     },
     'Meowstic-F': {
         types: ['Psychic'],
-        bs: { hp: 74, at: 48, df: 76, sa: 113, sd: 81, sp: 104 },
+        bs: { hp: 74, at: 48, df: 76, sa: 123, sd: 81, sp: 114 },
         weightkg: 8.5,
         abilities: { 0: 'Keen Eye' },
         baseSpecies: 'Meowstic'
