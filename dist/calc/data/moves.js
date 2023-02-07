@@ -1146,7 +1146,7 @@ var DPP_PATCH = {
         category: 'Special'
     },
     'X-Scissor': {
-        bp: 80,
+        bp: 85,
         type: 'Bug',
         makesContact: true,
         category: 'Physical'
@@ -1587,7 +1587,7 @@ var BW_PATCH = {
         secondaries: true
     },
     'Night Daze': {
-        bp: 85,
+        bp: 90,
         type: 'Dark',
         category: 'Special',
         secondaries: true
@@ -1798,7 +1798,7 @@ var XY_PATCH = {
         secondaries: true
     },
     'Parabolic Charge': {
-        bp: 50,
+        bp: 75,
         type: 'Electric',
         drain: [1, 2],
         target: 'allAdjacent',
@@ -2252,7 +2252,7 @@ var SM_PATCH = {
     Outrage: { zp: 190 },
     Overheat: { zp: 195 },
     'Paleo Wave': { zp: 160 },
-    'Parabolic Charge': { bp: 65, zp: 120 },
+    'Parabolic Charge': { bp: 75, zp: 120 },
     Payback: { zp: 100 },
     'Pay Day': { zp: 100 },
     Peck: { zp: 100 },
