@@ -3890,14 +3890,14 @@ var BW_PATCH = {
     },
     Basculin: {
         types: ['Water', 'Dark'],
-        bs: { hp: 70, at: 112, df: 65, sa: 80, sd: 55, sp: 103 },
+        bs: { hp: 70, at: 102, df: 65, sa: 80, sd: 55, sp: 103 },
         weightkg: 18,
         abilities: { 0: 'Reckless' },
         otherFormes: ['Basculin-Blue-Striped']
     },
     'Basculin-Blue-Striped': {
         types: ['Water', 'Dark'],
-        bs: { hp: 70, at: 112, df: 65, sa: 80, sd: 55, sp: 103 },
+        bs: { hp: 70, at: 102, df: 65, sa: 80, sd: 55, sp: 103 },
         weightkg: 18,
         abilities: { 0: 'Rock Head' },
         baseSpecies: 'Basculin'
@@ -4147,7 +4147,7 @@ var BW_PATCH = {
     },
     Emolga: {
         types: ['Electric', 'Flying'],
-        bs: { hp: 55, at: 85, df: 60, sa: 85, sd: 60, sp: 108 },
+        bs: { hp: 55, at: 90, df: 60, sa: 90, sd: 60, sp: 108 },
         weightkg: 5,
         abilities: { 0: 'Static' }
     },
@@ -5426,7 +5426,7 @@ var XY_PATCH = {
     },
     Gourgeist: {
         types: ['Ghost', 'Grass'],
-        bs: { hp: 85, at: 58, df: 122, sa: 90, sd: 75, sp: 84 },
+        bs: { hp: 75, at: 58, df: 122, sa: 100, sd: 75, sp: 84 },
         weightkg: 12.5,
         abilities: { 0: 'Pickup' },
         otherFormes: ['Gourgeist-Large', 'Gourgeist-Small', 'Gourgeist-Super']
