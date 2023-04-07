@@ -197,7 +197,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Exeggcute: {
     types: ['Grass', 'Psychic'],
-    bs: {hp: 60, at: 40, df: 80, sp: 40, sl: 60},
+    bs: {hp: 80, at: 40, df: 80, sp: 40, sl: 60},
     weightkg: 2.5,
     nfe: true,
   },
@@ -833,7 +833,7 @@ const GSC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Ekans: {bs: {sa: 40, sd: 54}},
   Electabuzz: {bs: {sa: 95, sd: 85}},
   Electrode: {bs: {sa: 80, sd: 80}, gender: 'N'},
-  Exeggcute: {bs: {sa: 60, sd: 45}},
+  Exeggcute: {bs: {sa: 80, sd: 45}},
   Exeggutor: {bs: {sa: 125, sd: 65}},
   'Farfetch\u2019d': {bs: {sa: 58, sd: 62}},
   Fearow: {bs: {sa: 61, sd: 61}},
@@ -1800,7 +1800,7 @@ const ADV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Banette: {
     types: ['Ghost'],
-    bs: {hp: 64, at: 115, df: 65, sa: 83, sd: 63, sp: 65},
+    bs: {hp: 64, at: 115, df: 65, sa: 63, sd: 63, sp: 85},
     weightkg: 12.5,
     abilities: {0: 'Insomnia'},
   },
@@ -3134,7 +3134,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Froslass: {
     types: ['Ice', 'Ghost'],
-    bs: {hp: 70, at: 80, df: 70, sa: 80, sd: 70, sp: 110},
+    bs: {hp: 70, at: 80, df: 70, sa: 90, sd: 70, sp: 110},
     weightkg: 26.6,
     abilities: {0: 'Snow Cloak'},
   },
@@ -3366,7 +3366,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Soundproof'},
   },
   Mismagius: {
-    types: ['Ghost'],
+    types: ['Ghost', 'Fairy'],
     bs: {hp: 60, at: 60, df: 60, sa: 105, sd: 105, sp: 105},
     weightkg: 4.4,
     abilities: {0: 'Levitate'},
@@ -5294,7 +5294,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Espurr: {
     types: ['Psychic'],
-    bs: {hp: 62, at: 48, df: 54, sa: 63, sd: 60, sp: 78},
+    bs: {hp: 62, at: 48, df: 54, sa: 83, sd: 60, sp: 98},
     weightkg: 3.5,
     nfe: true,
     abilities: {0: 'Keen Eye'},
@@ -5560,7 +5560,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   'Banette-Mega': {
     types: ['Ghost'],
-    bs: {hp: 64, at: 165, df: 75, sa: 93, sd: 83, sp: 75},
+    bs: {hp: 64, at: 165, df: 75, sa: 63, sd: 83, sp: 105},
     weightkg: 13,
     abilities: {0: 'Prankster'},
     baseSpecies: 'Banette',
@@ -5852,14 +5852,14 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Meowstic: {
     types: ['Psychic'],
-    bs: {hp: 114, at: 28, df: 91, sa: 83, sd: 96, sp: 104},
+    bs: {hp: 114, at: 28, df: 86, sa: 83, sd: 91, sp: 104},
     weightkg: 8.5,
     abilities: {0: 'Keen Eye'},
     otherFormes: ['Meowstic-F'],
   },
   'Meowstic-F': {
     types: ['Psychic'],
-    bs: {hp: 74, at: 48, df: 76, sa: 123, sd: 81, sp: 114},
+    bs: {hp: 74, at: 48, df: 76, sa: 113, sd: 81, sp: 114},
     weightkg: 8.5,
     abilities: {0: 'Keen Eye'},
     baseSpecies: 'Meowstic',
