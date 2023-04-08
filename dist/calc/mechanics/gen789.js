@@ -686,7 +686,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
             desc.terrain = field.terrain;
         }
     }
-    if ((attacker.hasAbility('Technician') && basePower <= 60) ||
+    if ((attacker.hasAbility('Technician') && basePower <= 65) ||
         (attacker.hasAbility('Flare Boost') &&
             attacker.hasStatus('brn') && move.category === 'Special') ||
         (attacker.hasAbility('Toxic Boost') &&
@@ -728,7 +728,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Analytic') &&
             (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
         (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
-        (attacker.hasAbility('Punk Rock') && move.flags.sound)) {
+        (attacker.hasAbility('Punk Rock', 'Lead Singer', 'Liquid Voice') && move.flags.sound)) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
@@ -845,6 +845,10 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         attack = (0, util_2.pokeRound)((attack * 3) / 2);
         desc.attackerAbility = attacker.ability;
     }
+    if (attacker.hasAbility('Wrestlers Mark') && move.category === 'Physical') {
+        attack = (0, util_2.pokeRound)((attack * 6) / 5);
+        desc.attackerAbility = attacker.ability;
+    }
     var atMods = calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc);
     attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
     return attack;
@@ -895,7 +899,8 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
     else if ((attacker.hasAbility('Steelworker') && move.hasType('Steel')) ||
         (attacker.hasAbility('Dragon\'s Maw') && move.hasType('Dragon')) ||
         (attacker.hasAbility('Transistor') && move.hasType('Electric')) ||
-        (attacker.hasAbility('Rocky Payload') && move.hasType('Rock'))) {
+        (attacker.hasAbility('Rocky Payload') && move.hasType('Rock')) ||
+        (attacker.hasAbility('Glider') && move.hasType('Flying'))) {
         atMods.push(6144);
         desc.attackerAbility = attacker.ability;
     }
@@ -1107,7 +1112,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         finalMods.push(2048);
         desc.defenderAbility = defender.ability;
     }
-    else if ((defender.hasAbility('Punk Rock') && move.flags.sound) ||
+    else if ((defender.hasAbility('Punk Rock', 'Lead Singer', 'Liquid Voice') && move.flags.sound) ||
         (defender.hasAbility('Ice Scales') && move.category === 'Special')) {
         finalMods.push(2048);
         desc.defenderAbility = defender.ability;
