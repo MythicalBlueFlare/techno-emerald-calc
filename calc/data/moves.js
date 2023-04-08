@@ -765,7 +765,7 @@ var DPP_PATCH = {
     'Quick Attack': { category: 'Physical' },
     'Razor Leaf': { category: 'Physical' },
     'Rock Slide': { category: 'Physical' },
-    'Rock Smash': { bp: 40, category: 'Physical' },
+    'Rock Smash': { bp: 65, category: 'Physical' },
     'Rock Throw': { category: 'Physical' },
     Scratch: { category: 'Physical' },
     'Seismic Toss': { category: 'Physical' },
@@ -3603,6 +3603,41 @@ var SS_PATCH = {
         zp: 175,
         maxPower: 90
     },
+    'Aqua Fang': {
+        bp: 65,
+        type: 'Water',
+        category: 'Physical',
+        zp: 190,
+        maxPower: 140,
+        makesContact: true,
+        secondaries: true,
+        isBite: true
+    },
+    'Angelic Song': {
+        bp: 80,
+        type: 'Flying',
+        category: 'Special',
+        zp: 190,
+        maxPower: 140,
+        isSound: true,
+        target: 'allAdjacentFoes'
+    },
+    'Headlong Rush': {
+        bp: 120,
+        type: 'Ground',
+        category: 'Physical',
+        zp: 190,
+        maxPower: 140,
+        makesContact: true
+    },
+    'Toxin Turn': {
+        bp: 60,
+        type: 'Poison',
+        makesContact: true,
+        category: 'Physical',
+        zp: 120,
+        maxPower: 110
+    },
     '10,000,000 Volt Thunderbolt': { maxPower: 1 },
     Absorb: { maxPower: 90 },
     Accelerock: { maxPower: 90 },
@@ -4716,33 +4751,6 @@ var SV_PATCH = {
         secondaries: true,
         isWind: true,
         target: 'allAdjacentFoes'
-    },
-    'Aqua Fang': {
-        bp: 65,
-        type: 'Water',
-        category: 'Physical',
-        zp: 190,
-        maxPower: 140,
-        makesContact: true,
-        secondaries: true,
-        isBite: true
-    },
-    'Angelic Song': {
-        bp: 80,
-        type: 'Flying',
-        category: 'Special',
-        zp: 190,
-        maxPower: 140,
-        isSound: true,
-        target: 'allAdjacentFoes'
-    },
-    'Toxin Turn': {
-        bp: 60,
-        type: 'Poison',
-        makesContact: true,
-        category: 'Physical',
-        zp: 120,
-        maxPower: 110
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH);
