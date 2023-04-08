@@ -44,4 +44,4 @@ var SETDEX_SS = {"Geodude-Alola":{"Leader Roxanne 1":{"level":15,"ability":"Stur
 "Slowking-Galar":{"Leader Tate & Liza":{"level":74,"ability":"Regenerator","item":"Assault Vest","nature":"Hardy","moves":["Psyshock","Sludge Bomb","Surf","Fire Blast"]}},
 "Sigilyph":{"Leader Tate & Liza":{"level":74,"ability":"Magic Guard","item":"Life Orb","nature":"Hardy","moves":["Psychic","Air Slash","Dazzling Gleam","Heat Wave"]}},
 "Victini":{"Leader Tate & Liza":{"level":75,"ability":"Victory Star","item":"Expert Belt","nature":"Hardy","moves":["V-create","Psychic","Bolt Strike","Glaciate"]}},
-"Tapu Lele":{"Leader Tate & Liza":{"level":75,"ability":"Psychic Surge","item":"Leftovers","nature":"Hardy","moves":["Moonblast","Psychic","Energy Ball","Calm Mind"]}},
+"Tapu Lele":{"Leader Tate & Liza":{"level":75,"ability":"Psychic Surge","item":"Leftovers","nature":"Hardy","moves":["Moonblast","Psychic","Energy Ball","Calm Mind"]}}}
