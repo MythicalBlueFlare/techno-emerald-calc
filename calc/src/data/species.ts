@@ -7729,7 +7729,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     baseSpecies: 'Cinderace',
   },
   Clobbopus: {
-    types: ['Fighting'],
+    types: ['Fighting', 'Water'],
     bs: {hp: 50, at: 68, df: 60, sa: 50, sd: 50, sp: 32},
     weightkg: 4,
     abilities: {0: 'Limber'},
@@ -8037,7 +8037,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     nfe: true,
   },
   Grapploct: {
-    types: ['Fighting'],
+    types: ['Fighting', 'Water'],
     bs: {hp: 90, at: 118, df: 90, sa: 60, sd: 80, sp: 42},
     weightkg: 39,
     abilities: {0: 'Limber'},

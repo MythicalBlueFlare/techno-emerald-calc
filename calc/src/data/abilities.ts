@@ -291,6 +291,11 @@ const SS = SM.concat([
   'Transistor',
   'Unseen Fist',
   'Wandering Spirit',
+  'Glider',
+  'Wrestlers Mark',
+  'Lead Singer',
+  'Icy Heart',
+  'Hubris',
 ]);
 
 const SV = SS.concat([
@@ -325,11 +330,6 @@ const SV = SS.concat([
   'Wind Power',
   'Wind Rider',
   'Zero to Hero',
-  'Glider',
-  'Wrestlers Mark',
-  'Lead Singer',
-  'Icy Heart',
-  'Hubris',
   
 ]);
 

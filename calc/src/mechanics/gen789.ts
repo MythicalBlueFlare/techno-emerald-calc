@@ -941,7 +941,7 @@ export function calculateBPModsSMSSSV(
   // Abilities
 
   // Use BasePower after moves with custom BP to determine if Technician should boost
-  if ((attacker.hasAbility('Technician') && basePower <= 60) ||
+  if ((attacker.hasAbility('Technician') && basePower <= 65) ||
     (attacker.hasAbility('Flare Boost') &&
       attacker.hasStatus('brn') && move.category === 'Special') ||
     (attacker.hasAbility('Toxic Boost') &&
@@ -985,7 +985,7 @@ export function calculateBPModsSMSSSV(
     (attacker.hasAbility('Analytic') &&
       (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
     (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
-    (attacker.hasAbility('Punk Rock') && move.flags.sound)
+    (attacker.hasAbility('Punk Rock', 'Lead Singer', 'Liquid Voice') && move.flags.sound)
   ) {
     bpMods.push(5325);
     desc.attackerAbility = attacker.ability;
@@ -1126,6 +1126,10 @@ export function calculateAttackSMSSSV(
     attack = pokeRound((attack * 3) / 2);
     desc.attackerAbility = attacker.ability;
   }
+  if (attacker.hasAbility('Wrestlers Mark') && move.category === 'Physical') {
+    attack = pokeRound((attack * 6) / 5);
+    desc.attackerAbility = attacker.ability;
+  }
   const atMods = calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc);
   attack = OF16(Math.max(1, pokeRound((attack * chainMods(atMods, 410, 131072)) / 4096)));
   return attack;
@@ -1187,7 +1191,8 @@ export function calculateAtModsSMSSSV(
     (attacker.hasAbility('Steelworker') && move.hasType('Steel')) ||
     (attacker.hasAbility('Dragon\'s Maw') && move.hasType('Dragon')) ||
     (attacker.hasAbility('Transistor') && move.hasType('Electric')) ||
-    (attacker.hasAbility('Rocky Payload') && move.hasType('Rock'))
+    (attacker.hasAbility('Rocky Payload') && move.hasType('Rock')) ||
+	(attacker.hasAbility('Glider') && move.hasType('Flying'))
   ) {
     atMods.push(6144);
     desc.attackerAbility = attacker.ability;
@@ -1463,7 +1468,7 @@ export function calculateFinalModsSMSSSV(
     finalMods.push(2048);
     desc.defenderAbility = defender.ability;
   } else if (
-    (defender.hasAbility('Punk Rock') && move.flags.sound) ||
+    (defender.hasAbility('Punk Rock', 'Lead Singer', 'Liquid Voice') && move.flags.sound) ||
     (defender.hasAbility('Ice Scales') && move.category === 'Special')
   ) {
     finalMods.push(2048);
