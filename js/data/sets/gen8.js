@@ -83,4 +83,4 @@ var SETDEX_SS = {"Geodude-Alola":{"Leader Roxanne 1":{"level":15,"ability":"Stur
 "Dragalge":{"Leader Juan":{"level":84,"ability":"Rain Dish","item":"Black Sludge","nature":"Hardy","moves":["Draco Meteor","Sludge Bomb","Scald","Dark Pulse"]}},
 "Primarina":{"Leader Juan":{"level":84,"ability":"Liquid Voice","item":"Throat Spray","nature":"Hardy","moves":["Hyper Voice","Moonblast","Ice Beam","Calm Mind"]},"Trainer Brendan/May 4 Primarina":{"level":55,"ability":"Liquid Voice","item":"Leftovers","nature":"Hardy","moves":["Hyper Voice","Moonblast","Ice Beam","Aqua Jet"]}},
 "Swampert-Mega":{"Leader Juan":{"level":85,"ability":"Swift Swim","item":"Swampertite","nature":"Hardy","moves":["Liquidation","Earthquake","Ice Punch","Rock Slide"]}},
-"Volcanion":{"Leader Juan":{"level":85,"ability":"Water Absorb","item":"Utility Umbrella","nature":"Hardy","moves":["Steam Engine","Overheat","Sludge Bomb","Earth Power"]}},
+"Volcanion":{"Leader Juan":{"level":85,"ability":"Water Absorb","item":"Utility Umbrella","nature":"Hardy","moves":["Steam Engine","Overheat","Sludge Bomb","Earth Power"]}}}
